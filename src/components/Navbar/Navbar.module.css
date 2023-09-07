@@ -1,0 +1,16 @@
+.navbar {
+  background-color: lightblue;
+  width: 60%;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 80px;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.navContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

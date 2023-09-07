@@ -1,0 +1,16 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  border: 1px solid lightgray;
+}
+
+.gridHeader {
+  padding: 10px;
+  border-right: 1px solid lightgray;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.gridHeader:last-child {
+  border-right: none;
+}

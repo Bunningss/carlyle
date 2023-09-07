@@ -1,0 +1,20 @@
+.gridColumn {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  border: 1px solid lightgray;
+}
+
+.gridData {
+  text-align: center;
+  text-transform: capitalize;
+  padding: 10px;
+  border-right: 1px solid lightgray;
+}
+
+.gridColumn {
+  border-top: none;
+}
+
+.gridData:last-child {
+  border-right: none;
+}
